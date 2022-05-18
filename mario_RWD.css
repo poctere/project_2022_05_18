@@ -1,0 +1,329 @@
+html, body, main{
+    width: 100%; 
+    height: 100%;
+    margin: 0;
+}
+
+/* 電腦版 */
+@media screen and (min-width: 1024px){
+     
+    /* 表頭 */
+    header{
+        width: 100%;
+        height: 100px;
+        color: rgb(231, 84, 92);
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(5, 248, 126);
+        font-size: 4em;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    /* 表頭logo */
+    #headpic{
+        height: 90px;
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    /* 側欄 */
+    #sidebar{
+        clear: both;
+        width: 10%;
+        height: 100%;
+        background-image: url(./images/sidepic.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+}
+
+    /* 文字段落設定 */
+    p{
+        text-align: left;
+        width: fit-content;
+        margin: 0px auto;
+    }  
+
+    /* 瑪利歐 */
+    #content1{
+        width: 30%; 
+        height: 100%;
+        color: white;
+        background-color: rgb(34, 156, 75);
+        font-size: 1rem; 
+        text-align: center;
+        float: left;
+    }
+
+    #mariopic{
+        width: 40%;
+        margin: 80px;
+    }
+
+    /* 路易吉 */
+    #content2{
+        width: 30%; 
+        height: 100%;
+        color: white;
+        background-color: rgb(189, 99, 99);
+        font-size: 1rem; 
+        text-align: center;
+        float: left;
+    }
+
+    #luigipic{
+        width: 40%;
+        margin: 80px;
+    }
+
+    /* 碧琪公主 */
+    #content3{
+        width: 30%; 
+        height: 100%;
+        color: white;
+        background-color: rgb(112, 87, 226);
+        font-size: 1rem; 
+        text-align: center;
+        float: left;
+    }
+
+    #peachpic{
+        width: 30%;
+        margin: 80px;
+    }
+
+    footer{
+        clear: both;
+        width: 100%; 
+        height: 50px;
+        color: #000;
+        background-color: rgb(5, 248, 126);
+        font-size: 1em;
+        line-height: 50px;
+        text-align: center;
+    }
+} 
+
+
+/* 平版 */
+@media screen and (min-width: 481px) and (max-width:1023px){
+
+    /* 表頭 */
+    header{
+        width: 100%;
+        height: 50px;
+        color: rgb(231, 84, 92);
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(5, 248, 126);
+        font-size: 2em;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    /* 表頭logo */
+    #headpic{
+        height: 40px;
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    /* 側欄 */
+    #sidebar{
+        clear: both;
+        width: 50%;
+        height: 50%;
+        background-image: url(./images/game.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        float: left;
+    }
+      
+    /* 文字段落設定 */
+    p{
+        text-align: left;
+        width: fit-content;
+        margin: 0px auto;
+    } 
+
+    /* 瑪利歐 */
+    #content1{
+        width: 50%; 
+        height: 50%;
+        color: white;
+        background-color: rgb(34, 156, 75);
+        font-size: 16px; 
+        text-align: center;
+        float: left;
+    }
+
+    #mariopic{
+        width: 30%;
+        margin: 70px 0 30px;
+    }
+
+    /* 路易吉 */
+    #content2{
+        clear: both;
+        width: 50%; 
+        height: 50%;
+        color: white;
+        background-color: rgb(189, 99, 99);
+        font-size: 16px; 
+        text-align: center;
+        float: left;
+    }
+
+    #luigipic{
+        width: 30%;
+        margin: 70px 0 30px;
+    }
+
+    /* 碧琪公主 */
+    #content3{
+        width: 50%; 
+        height: 50%;
+        color: white;
+        background-color: rgb(112, 87, 226);
+        font-size: 16px; 
+        text-align: center;
+        float: left;
+    }
+
+    #peachpic{
+        width: 20%;
+        margin: 70px 0 30px;
+    }
+
+    footer{
+        clear: both;
+        width: 100%; 
+        height: 50px;
+        color: #000;
+        background-color: rgb(5, 248, 126);
+        font-size: small;
+        line-height: 30px;
+        text-align: center;
+    }
+} 
+
+/* 手機版 */
+@media screen and (max-width:480px){
+
+    /* 表頭 */
+    header{
+        width: 100%;
+        height: 40px;
+        color: rgb(231, 84, 92);
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(5, 248, 126);
+        font-size: 1.3em;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    /* 表頭logo */
+    #headpic{
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+ 
+    /* 側欄 */
+    #sidebar{
+        clear: both;
+        width: 100%;
+        height: 20%;
+        background-image: url(./images/game.jpg);
+        background-size: auto;
+        background-position: top;
+    }
+
+    /* 瑪利歐 */
+    #content1{
+        width: 100%; 
+        height: 27%;
+        color: white;
+        background-color: rgb(34, 156, 75);
+        font-size: 16px; 
+    }
+
+    #mariopic{
+        width: 20%;
+        margin: 45px 30px 15px 20px;
+        float: left;
+    }
+
+    /* Mario文字段落設定 */
+    #content1 p{
+        text-align: left;
+        width: fit-content;
+        margin: 20px 20px 15px 0px;
+        float: right;
+    }  
+
+    /* 路易吉 */
+    #content2{
+        clear: both;
+        width: 100%; 
+        height: 27%;
+        color: white;
+        background-color: rgb(189, 99, 99);
+        font-size: 16px;
+    }
+
+    #luigipic{
+        width: 25%;
+        margin: 30px 20px 15px 30px;
+        float: right;
+    }
+
+    /* Luigi文字段落設定 */
+    #content2 p{
+        text-align: left;
+        width: fit-content;
+        margin: 12px 0px 8px 15px;
+        float: left;
+    }  
+
+    /* 碧琪公主 */
+    #content3{
+        clear: both;
+        width: 100%; 
+        height: 26%;
+        color: white;
+        background-color: rgb(112, 87, 226);
+        font-size: 16px; 
+    }
+
+    #peachpic{
+        width: 17%;
+        margin: 30px 20px 15px 35px;
+        float: left;
+    }
+
+    /* Peach文字段落設定 */
+    #content3 p{
+        text-align: left;
+        width: fit-content;
+        margin: 20px 30px 15px 0px;
+        float: right;
+    }  
+
+    footer{
+        clear: both;
+        width: 100%; 
+        height: 40px;
+        color: #000;
+        background-color: rgb(5, 248, 126);
+        font-size:x-small;
+        line-height: 20px;
+        text-align: center;
+    }
+} 
+
